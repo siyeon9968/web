@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ko">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PORTFOLIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="solution-style.css">
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target="#nav-menu">
+
+    <!-- 네비게이션 영역 시작 -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+
+            <a class="gugi-font navbar-brand" href="#home">
+                박시연</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link" href="#home">홈</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-actor">소개</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#filmography">필모그래피</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#photo">사진</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#video">영상</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">연락처</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 네비게이션 영역 끝 -->
+
+
+    <!-- 헤더 영역 시작 -->
+    <header id="home" class="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
+
+        <h1 class="display-3 fw-bold mb-5">PORTFOLIO</h1>
+        <h4 class="fs-2 mb-3">박시연</h4>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#bestmenuModal"
+            class="btn btn-outline-warning rounded-pill">간단히 보기</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="bestmenuModal" tabindex="-1" aria-labelledby="bestmenuModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-dark fs-5" id="bestmenuModalLabel">ART Cook 대표 요리</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/bestmenu.jpg" alt="대표 요리" class="img-fluid">
+                        <p class="text-muted">이름 : 박시연</p>
+                        <p class="text-muted">나이 : 1999년생(만 25세)</p>
+                        <p class="text-muted">신체 : 169cm / 48kg</p>
+                        <p class="text-muted">학력 : 서울여자대학교 공예전공 졸업</p>
+                        <p class="text-muted"><드라마><br>KBS '저스티스'<br>채널A '터치'
+                            <br>KT OTT '쉿! 그 놈을 부탁해'<br>유튜브 '나는 배우중이다', '말알이야기'
+                        <br>넷플릭스 '셀러브리티'</p>
+                        <p class="text-muted"><영화><br>단편영화 '희노', '거울'</p>
+                        <p class="text-muted"><뮤직비디오><br>니은 '하늘의 별'</p>
+                        <p class="text-muted"><광고><br>메종 드 펜세 '펜세 크림 퍼퓸' 바이럴 광고</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 끝 -->
+    </header>
+    <!-- 헤더 영역 끝 -->
+
+
+    <!-- 쉐프 소개 섹션 시작 -->
+    <section class="container py-5" id="about-actor">
+
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-5">
+                <img src="images/chef.jpg" alt="쉐프 프로필 사진" class="img-fluid">
+            </div>
+            <div class="col-md-7 col-lg-5 px-lg-5">
+                <h3 class="fw-bold mb-3">박시연</h3>
+                <p class="text-muted">나이 : 1999년생(만 25세)</p>
+                <p class="text-muted">키 : 169cm</p>
+                <p class="text-muted">몸무게 : 48kg</p>
+                <p class="text-muted">학력 : 서울여자대학교 공예전공 졸업</p>
+                <p class="text-muted">특기 : 대구 사투리, 그림 그리기, 도자기 물레</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- 쉐프 소개 섹션 끝 -->
+
+
+ <!-- 서비스 섹션 시작 -->
+ <section class="container overflow-hidden py-5" id="filmography">
+
+    <div class="text-center py-5">
+        <h2 class="fw-bold mb-3">FILMOGRAPHY</h2>
+    </div>
+
+    <div class="row mb-5 g-4">
+        <div class="col-md-6">
+            <div class="card-hover shadow rounded p-4">
+                <div class="d-flex align-items-center py-3">
+                    <img src="images/service1.jpg" alt="서비스 1" class="rounded-circle">
+                    <div class="ms-3">
+                        <h3 class="fw-bold">드라마</h3>
+                    </div>
+                </div>
+                <p>KBS '저스티스'<br>채널A '터치'<br>KT OTT '쉿! 그 놈을 부탁해'
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card-hover shadow rounded p-4">
+                <div class="d-flex justify-content-end align-items-center py-3">
+                    <div class="text-end me-3">
+                        <h3 class="fw-bold">웹드라마</h3>
+                    </div>
+                    <img src="images/service2.jpg" alt="서비스 2" class="rounded-circle">
+                </div>
+                <p>웹드라마 '나는 배우중이다'<br>초콜릿박스미디어 '말알이야기'
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card-hover shadow rounded p-4">
+                <div class="d-flex align-items-center py-3">
+                    <img src="images/service3.jpg" alt="서비스 3" class="rounded-circle">
+                    <div class="ms-3">
+                        <h3 class="fw-bold">영화</h3>
+                    </div>
+                </div>
+                <p>단편영화 '희노'<br>단편영화 '거울'</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card-hover shadow rounded p-4">
+                <div class="d-flex justify-content-end align-items-center py-3">
+                    <div class="text-end me-3">
+                        <h3 class="fw-bold">뮤직비디오</h3>
+                    </div>
+                    <img src="images/service4.jpg" alt="서비스 4" class="rounded-circle">
+                </div>
+                <p>니은 '하늘의 별'</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 서비스 섹션 끝 -->
+
+
+    <!-- 포트폴리오 섹션 시작 -->
+    <section class="bg-dark py-5" id="photo">
+
+        <div class="container overflow-hidden">
+            <div class="text-center text-white py-5">
+                <h2 class="fw-bold mb-3">PHOTO</h2>
+            </div>
+
+            <div class="row pb-5 g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <img src="images/portfolio1.jpg" alt="포트폴리오 사진 1" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="images/portfolio2.jpg" alt="포트폴리오 사진 2" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="images/portfolio3.jpg" alt="포트폴리오 사진 3" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="images/portfolio4.jpg" alt="포트폴리오 사진 4" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="images/portfolio5.jpg" alt="포트폴리오 사진 5" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="images/portfolio6.jpg" alt="포트폴리오 사진 6" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 포트폴리오 섹션 끝 -->
+
+
+    <!-- SNS 섹션 시작 -->
+    <section class="py-5" id="sns-links">
+        <div class="container text-center text-white">
+            <h2 class="fw-bold mb-3">ART Cook SNS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ipsum.</p>
+            <div class="d-flex justify-content-evenly px-5 mt-4 w-50 m-auto">
+                <a href="https://www.youtube.com/c/%EC%BD%94%EB%93%9C%EB%8D%A4Codeyourdreams" target="_blank"
+                    class="btn btn-danger rounded-pill btn-lg px-4"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="btn btn-primary rounded-pill btn-lg px-4"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="btn btn-warning rounded-pill btn-lg px-4"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SNS 섹션 끝 -->
+
+
+    <!-- 블로그 섹션 시작 -->
+    <section class="container overflow-hidden py-5" id="video">
+
+        <div class="text-center py-5">
+            <h2 class="fw-bold">VIDEO</h2>
+        </div>
+
+        <div class="row pb-5 gy-4">
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="images/blog1.jpg" alt="블로그 1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">블로그 1</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias qui quo
+                            maiores quasi optio consectetur!</p>
+                        <a href="#" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="images/blog2.jpg" alt="블로그 2" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">블로그 2</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias qui quo
+                            maiores quasi optio consectetur!</p>
+                        <a href="#" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="images/blog3.jpg" alt="블로그 3" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">블로그 3</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias qui quo
+                            maiores quasi optio consectetur!</p>
+                        <a href="#" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="images/blog4.jpg" alt="블로그 4" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">블로그 4</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias qui quo
+                            maiores quasi optio consectetur!</p>
+                        <a href="#" class="btn btn-warning btn-sm">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- 블로그 섹션 끝 -->
+
+
+    <!-- 뉴스 섹션 시작 -->
+    <section class="py-5" id="news">
+        <div class="container">
+            <div class="row p-4 align-items-center">
+
+                <div class="col-lg-9  text-white">
+                    <h2 class="fw-bold mb-3">ART Cook News</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, fugit? Deleniti excepturi,
+                        impedit temporibus vitae porro sequi nemo nesciunt quae! Dignissimos ratione accusantium ipsam
+                        molestiae saepe laboriosam sequi eligendi debitis?</p>
+                </div>
+
+                <div class="col-lg-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning px-4" data-bs-toggle="modal"
+                        data-bs-target="#newsModal">
+                        뉴스보기
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalTitle"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="newsModalTitle">ART Cook News</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="닫기"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe src="https://www.youtube.com/embed/DzN-aG3o87k"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 끝 -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 뉴스 섹션 끝 -->
+
+
+    <!-- 연락처 섹션 시작 -->
+    <section class="container overflow-hidden py-5 text-center" id="contact">
+
+        <div class="py-5">
+            <h2 class="fw-bold">Contact</h2>
+        </div>
+
+        <div class="row py-5 gy-3">
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-warning">
+                    <i class="bi bi-envelope-heart fs-5 text-warning"></i>
+                    <h3 class="fw-bold fs-5 py-2">이메일</h3>
+                    <hr>
+                    <p class="text-muted">siyeon9968@naver.com</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-success">
+                    <i class="bi bi-telephone-fill fs-5 text-success"></i>
+                    <h3 class="fw-bold fs-5 py-2">전화번호</h3>
+                    <hr>
+                    <p class="text-muted">010-9064-7422</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-warning">
+                    <i class="bi bi-car-front-fill fs-5 text-warning"></i>
+                    <h3 class="fw-bold fs-5 py-2">인스타그램</h3>
+                    <hr>
+                    <p class="text-muted">_yeeeeoooon_</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 연락처 섹션 끝 -->
+
+
+    <!-- 풋터 시작 -->
+    <footer class="bg-dark text-white">
+        <div class="container text-center">
+            <p class="py-4 mb-0">Copyright <i class="bi bi-c-circle"></i> 2024 Designed by <a
+                    href="http://www.swu.ac.kr/index.do" target="_blank"
+                    class="gugi-font link-warning text-decoration-none">서울여자대학교</a></p>
+        </div>
+    </footer>
+    <!-- 풋터 끝 -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
