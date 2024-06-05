@@ -1,0 +1,72 @@
+body {
+    .nanum-gothic-regular {
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+
+h1,
+h2,
+h3,
+h4,
+.gugi-font {
+    .nanum-gothic-regular {
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #eb9f9f !important;
+}
+
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/zinu1.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+/* 필모 섹션 */
+.card-hover:hover {
+    background-color: #ffc10726;
+}
+
+
+/* 사진 섹션 */
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #ffffff;
+	padding: 80px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+
+
+
+/* 뮤직비디오 섹션 */
+#musicvideo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/musicvideo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
